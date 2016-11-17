@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubsTest", "EventHubsTest\EventHubsTest.csproj", "{60A36274-A28B-43C6-8B16-C184B48131CA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47E0B4FB-3D0D-49F2-B8CB-4819B8181A23} = {47E0B4FB-3D0D-49F2-B8CB-4819B8181A23}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reveiver", "Reveiver\Reveiver.csproj", "{47E0B4FB-3D0D-49F2-B8CB-4819B8181A23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A36274-A28B-43C6-8B16-C184B48131CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A36274-A28B-43C6-8B16-C184B48131CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A36274-A28B-43C6-8B16-C184B48131CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A36274-A28B-43C6-8B16-C184B48131CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E0B4FB-3D0D-49F2-B8CB-4819B8181A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E0B4FB-3D0D-49F2-B8CB-4819B8181A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E0B4FB-3D0D-49F2-B8CB-4819B8181A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E0B4FB-3D0D-49F2-B8CB-4819B8181A23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
