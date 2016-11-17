@@ -11,8 +11,11 @@ namespace Reveiver
     {
         static void Main(string[] args)
         {
+            // Event Hub is created on Azure portal
             string eventHubConnectionString = "{Your Event Hubs Connection String}";
             string eventHubName = "{Event Hub Name}";
+
+            // Storage Account is also created on Azure portal
             string storageAccountName = "{Account Storage Name}";
             string storageAccountKey = "{Account Storage Key}";
             string storageConnectionString = string.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}", storageAccountName, storageAccountKey);

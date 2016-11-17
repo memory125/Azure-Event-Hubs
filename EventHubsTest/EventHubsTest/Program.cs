@@ -10,6 +10,7 @@ namespace EventHubsTest
 {   
     class Program
     {
+        // Event Hubs is created on Azure portal
         static string eventHubName = "{Event Hub Name}";
         static string connectionString = "{Your Event Hubs Connection String}";
 
