@@ -18,12 +18,12 @@ namespace Demo1
         {
             //Définition des variables
             //Variables pour l'event hub
-            //Endpoint = sb://iotlabdemo-eventhub-umair.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=QsDAb7amI0Eu1od3oZr/ch2tncxQfYTEi5xVZpp5Gyw=
 
-            string eventHubName = "de-eventhub-demo";
-            string eventHubNamespace = "iotlabdemo-eventhub-umair";
-            string sharedAccessPolicyName = "RootManageSharedAccessKey";
-            string sharedAccessPolicyKey = "QsDAb7amI0Eu1od3oZr/ch2tncxQfYTEi5xVZpp5Gyw=";
+            // Event Hubs is created on Azure portal
+            string eventHubName = "{Your Event Hub Name}";
+            string eventHubNamespace = "{Your Event Hub Namespace}";
+            string sharedAccessPolicyName = "{Your Event Hub Access Policy Name}";
+            string sharedAccessPolicyKey = "{Your Event Hub Access Policy Key}";
 
 
             Random MyRandom = new Random();
